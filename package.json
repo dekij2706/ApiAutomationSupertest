@@ -1,0 +1,21 @@
+{
+  "name": "api-testing-excersise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/tests.js --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
